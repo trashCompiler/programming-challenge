@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class AppTest {
 
     private String successLabel = "not successful";
+    String filePath = "src\\main\\resources\\de\\bcxp\\challenge\\";
 
     @BeforeEach
     void setUp() {
@@ -22,4 +23,24 @@ class AppTest {
         assertEquals("successful", successLabel, "My expectations were not met");
     }
 
+    // *Erinnerung für unser Gespräch* 
+    // Hier unit test
+    @Test
+    void testCalcDiff() {
+        
+    }
+
+    // *Erinnerung für unser Gespräch* 
+    // Hier unit test
+    @Test
+    void testCalcPopDensity() {
+        
+    }
+
+    // *Erinnerung für unser Gespräch* 
+    // Hier unit test
+    @Test
+    void testGetEntities() {
+        
+    }
 }
